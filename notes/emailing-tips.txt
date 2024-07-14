@@ -1,0 +1,23 @@
+If you're managing your email campaigns directly through PHP and your own database, here are some best practices to follow to maintain good email sender reputation and avoid being flagged by Gmail or other email providers:
+
+    Permission-Based Marketing: Ensure that all recipients have explicitly opted in to receive your emails. Use a double opt-in process where users confirm their subscription after signing up.
+
+    Authenticate Your Emails: Implement authentication protocols like SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting, and Conformance) to verify your domain's identity and ensure emails are not spoofed or forged.
+
+    Manage Unsubscriptions Properly: Provide a clear and functional unsubscribe link in every email. When a user unsubscribes, promptly remove them from your mailing list. Do not require users to log in or visit your website to unsubscribe.
+
+    Monitor and Manage Complaints: Regularly monitor feedback loops provided by email providers like Gmail to track and process user complaints. Handle complaints promptly and investigate the root cause to prevent future issues.
+
+    Use Optimal Sending Practices: Avoid sending emails in bulk all at once. Use throttling and rate limiting to distribute email sends evenly over time. This helps in mimicking human-like behavior and reduces the likelihood of triggering spam filters.
+
+    Maintain a Clean Email List: Regularly clean your email list by removing inactive or bounced email addresses. A high bounce rate can negatively impact your sender reputation.
+
+    Provide Valuable Content: Ensure your emails provide relevant and valuable content to your subscribers. Engaged users are less likely to mark your emails as spam.
+
+    Comply with Legal Requirements: Follow email marketing laws and regulations such as the CAN-SPAM Act (if applicable in your jurisdiction). Include your physical mailing address and a clear opt-out mechanism in every email.
+
+    Monitor Delivery and Performance Metrics: Use email analytics to monitor delivery rates, open rates, click-through rates, and unsubscribe rates. Analyzing these metrics can help you identify and address potential issues early.
+
+    Stay Informed and Adapt: Stay updated with email industry best practices and changes in email provider policies. Adapt your practices accordingly to maintain a good sender reputation.
+
+By following these best practices, you can significantly reduce the risk of being flagged as a bad actor by Gmail or other email providers while managing your email campaigns through PHP and your own database.
